@@ -12,10 +12,10 @@ app.use(express.json());
 
 //conexion database
 const db = mysql.createConnection({
-    host: '92.249.44.52',
-    user: 'u830364575_portfolio_user',
-    password: 'matias96',
-    database: 'u830364575_portfolio',
+    host: 'MYHOST SQL',
+    user: 'MYUSERSQL',
+    password: 'PASSWORD MYSQL',
+    database: 'DATABASE MYSQL',
     
 });
 db.connect(function(err){
